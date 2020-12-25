@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Kantawat Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">FRONK</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Hello ครับ,<br>I'm <span>Kantawat Kaewwichien</h2>
+            <p>สวัสดีครับผมขอแนะนำตัวนะครับ ผมชื่อนายกันตวัฒน์ แก้ววิเชียร นี่คือเว็บไซต์ที่รวบรวมพอร์ตโฟลิโอของผมครับ เว็บนี้สร้างโดยใช้ html css javascript(บางส่วน)ครับผมเชิญรับชมครับ</p>
+            <a href="#">Know more</a>
+            </div>
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/kantawat.kaewwichien/"  target="_blank"><img src="images/facebook.png"></a></li>
+                <li><a href="https://www.sololearn.com/Profile/15519941"  target="_blank"><img src="images/sololearn.png"></a></li>
+                <li><a href="https://github.com/FRONKZ-cypher"  target="_blank"><img src="images/github1.png"></a></li>
+            </ul>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle(){
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
